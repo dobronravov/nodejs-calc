@@ -6,7 +6,7 @@ const postfixer = require('./postfixer');
 const expression = require('./expression');
 
 class Calculator {
-
+	
 	constructor( fixed ){
 		this.fixed = fixed || 2;
 	}

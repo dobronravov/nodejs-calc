@@ -1,10 +1,29 @@
 {
-	"name": "testcase",
-	"version": "1.0.0",
-	"scripts": {
-		"test": "node ./node_modules/mocha/bin/mocha"
-	},
-	"devDependencies": {
-		"mocha": "^6.2.0"
-	}
+  "name": "nodejs-calc-text",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "description": "Required for test cases only ``` npm install ```",
+  "main": "calc.js",
+  "directories": {
+    "test": "test"
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dobronravov/nodejs-calc.git"
+  },
+  "keywords": [
+    "calc",
+    "text"
+  ],
+  "author": "Oleg Dobronravov <oleg.dobronravov@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dobronravov/nodejs-calc/issues"
+  },
+  "homepage": "https://github.com/dobronravov/nodejs-calc#readme"
 }
