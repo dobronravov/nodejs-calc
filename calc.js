@@ -16,18 +16,10 @@ class Calculator {
 		let tokens;
 		let notation;
 
-		try {
 			exp = expression(exp);
-
 			tokens = lexer.tokenize(exp);
-
 			notation = postfixer.convert(tokens);
-
 			result = this.calcPostfix(notation);
-		}
-		catch(ex) {
-			return ex;
-		}
 
 		if( mathematics.isNumber(result) && result % 1 !== 0 )
 			result = Number(result.toFixed(this.fixed));
