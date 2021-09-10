@@ -1,6 +1,6 @@
 {
   "name": "nodejs-calc-text",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha"
   },
@@ -11,7 +11,7 @@
   "main": "calc.js",
   "directories": {
     "test": "test"
-  }, 
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dobronravov/nodejs-calc.git"
