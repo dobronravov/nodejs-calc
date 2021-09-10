@@ -29,7 +29,9 @@ describe("Calculator tests", function() {
 	it("Many signs in a row: 4 + ( - ( - ( -4 ) ) ) / 2", function() {
 		assert.equal(Calc.calculate('4 + ( - ( - ( -4 ) ) ) / 2'), 2);
 	});
-
+	it("exBUG: '1-(1)'", function() {
+		assert.equal(Calc.calculate('1-(-1)'), 2);
+	});
 	it("Math constants", function() {
 		assert.equal(Calc.calculate('PI + 2'), 5.14);
 	});

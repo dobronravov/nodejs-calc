@@ -14,7 +14,7 @@ class postfixer {
 				postfix.push(token)
 			}
 			else if( token === '(' ){
-				if( opStack.length > 0 && opStack[opStack.length - 1] === '-' ){
+				if( opStack.length > 1 && opStack[opStack.length - 1] === '-' ){
 					opStack.pop();
 					opStack.push('--');
 				}
